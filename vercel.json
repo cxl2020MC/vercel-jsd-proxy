@@ -1,0 +1,7 @@
+{
+  "name": "cdn-cxl2020mc",
+  "version": 2,
+  "routes": [
+    {"src": "/(.*)","dest": "https://cdn.jsdelivr.net/$1"}
+  ]
+}
